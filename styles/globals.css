@@ -5,7 +5,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
@@ -90,7 +90,7 @@ body {
   /* background: rgb(94,120,247);
   background: radial-gradient(circle, rgba(94,120,247,1) 0%, rgba(252,70,107,1) 100%); */
   background: rgb(6,6,38);
-background: radial-gradient(circle, rgba(6,6,38,1) 0%, rgba(5,3,36,1) 51%);
+  background: radial-gradient(circle, rgba(6,6,38,1) 0%, rgba(5,3,36,1) 51%);
   
   /* background: linear-gradient(
       to bottom,
@@ -114,7 +114,7 @@ a {
 footer {
   padding: 2rem;
   border: 1px solid rgb(var(--card-border-rgb));
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius);  
   position: relative;
   margin-top: 4rem;
 }
