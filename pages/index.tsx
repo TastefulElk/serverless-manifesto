@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function Home() {  
   return (
     <>
       <Head>
@@ -177,10 +178,13 @@ export default function Home() {
           </div>
         </div>
         <footer>
-          Made by{' '}
-          <a href='https://sebastianbille.com/'>
-            <span>Sebastian Bille</span>
-          </a>
+          <p>Made by{' '}
+            <a href='https://sebastianbille.com/'>
+              <span>Sebastian Bille</span>
+            </a>
+            <a href='https://github.com/TastefulElk/serverless-manifesto' className={styles.github}><Image src='/github-icon.png' alt='Github share icon' width={30} height={30} /></a>
+          </p>
+          {/* <p></p> */}
         </footer>
       </main>
     </>

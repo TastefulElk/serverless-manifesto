@@ -66,13 +66,6 @@
   font-family: var(--font-mono);
 }
 
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .description p {
   position: relative;
   margin: 0;
@@ -118,6 +111,11 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+}
+
+.github {
+  padding-left: 1rem;
+  vertical-align: middle;
 }
 
 /* Enable hover only on non-touch devices */
@@ -213,11 +211,5 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
   }
 }
