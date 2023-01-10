@@ -187,7 +187,7 @@ export default function Home() {
             <a href='https://sebastianbille.com/'>
               <span>Sebastian Bille</span>
             </a>
-            <a href='https://github.com/TastefulElk/serverless-manifesto' className={styles.github}><Image src='/github-icon.png' alt='Github share icon' width={30} height={30} /></a>
+            {' '}(...and you?<a href='https://github.com/TastefulElk/serverless-manifesto' className={styles.github}><Image src='/github-icon.png' alt='Github share icon' width={30} height={30} /></a>)
           </p>
           {/* <p></p> */}
         </footer>
